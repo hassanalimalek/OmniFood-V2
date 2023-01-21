@@ -164,3 +164,160 @@
 .step-img-box img {
   width: 35%;
 }
+
+/* ---------- */
+/* Meals section */
+/* ---------- */
+
+.section-meals {
+  padding: 9.6rem;
+}
+
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 12px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.meal:hover {
+  transform: translateY(-0.75rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.1);
+}
+.meal img {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+.meal-content {
+  padding: 1.6rem 2.8rem 2.8rem 2.8rem;
+}
+.meal-tags {
+  display: flex;
+  gap: 0.75rem;
+}
+.tag {
+  display: inline-block;
+  background-color: #51cf66;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 1.6rem;
+  border-radius: 100px;
+}
+.tag-vegan {
+  background-color: #51cf66;
+}
+.tag-paleo {
+  background-color: #ffd43b;
+  color: #333;
+}
+.meal-title {
+  font-size: 2.8rem;
+  margin-bottom: 2.6rem;
+  font-weight: 500;
+  color: #222;
+}
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+.meal-attribute {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.meal-icon {
+  height: 2.2rem;
+  width: 2.2rem;
+  color: #e67e22;
+}
+
+.other-meals-title {
+  font-size: 2.4rem;
+  margin-bottom: 2.8rem;
+}
+.other-meal-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  gap: 2rem;
+}
+.other-meal-list li {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+.checkmark-icon {
+  color: #e67e22;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.all-recipes-txt-container {
+  font-size: 1.8rem;
+  text-align: center;
+}
+.all-recipes-txt-container a {
+  text-decoration: none;
+  color: #777;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.all-recipes-txt-container a:hover {
+  color: #e67e22;
+}
+
+/* ---------- */
+/* Testimonials section */
+/* ---------- */
+
+.section-testimonial {
+  background-color: #fae5d3;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 55fr 45fr;
+}
+
+.testimonials-container {
+  padding: 8rem;
+}
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+}
+.testimonial-image {
+  max-width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+.gallery-item {
+  overflow: hidden;
+}
+.gallery-item img {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.gallery-item img:hover {
+  transform: scale(1.05);
+}

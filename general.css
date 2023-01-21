@@ -57,6 +57,12 @@ SMALL : 8px
 .mr-sm {
   margin-right: 1.6rem !important;
 }
+.mb-md {
+  margin-bottom: 4.8rem !important;
+}
+.text-center {
+  text-align: center;
+}
 
 /* ---------- */
 /* General Reusable components */
@@ -153,4 +159,8 @@ body {
   color: #555;
   line-height: 1;
   font-family: 'Rubik', sans-serif;
+}
+
+strong {
+  font-weight: 500;
 }
