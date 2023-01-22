@@ -24,14 +24,17 @@ Default : 1
 
 - Primary: #e67e22;
 - Tints :  #fdf2e9;
-- Shades : #cf711f;
+- Shades : #cf711f,#45260a;
 - Accents : 
 - Greys : 
 
 --- 05 Shadows
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+0 3.2rem 6.4rem rgba(0, 0, 0, 0.1);
 
 --- 06 Border Radius
 SMALL : 8px
+MEDIUM : 12px
 
 --- 07 White Space
 
@@ -48,6 +51,11 @@ SMALL : 8px
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 /* ---------- */
@@ -93,6 +101,9 @@ SMALL : 8px
 .grid-cols-4 {
   grid-template-columns: repeat(4, 1fr);
 }
+.grid-cols-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
 
 .header-primary,
 .subheading {
@@ -124,7 +135,7 @@ SMALL : 8px
   text-transform: uppercase;
   letter-spacing: 0.75px;
 }
-
+.btn,
 .btn:link,
 .btn:visited {
   font-weight: 500;
