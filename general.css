@@ -52,6 +52,10 @@ MEDIUM : 12px
   padding: 0;
   box-sizing: border-box;
 }
+html,
+body {
+  overflow-x: hidden;
+}
 
 *:focus {
   outline: none;
@@ -105,11 +109,11 @@ MEDIUM : 12px
   grid-template-columns: repeat(5, 1fr);
 }
 
-.header-primary,
+.heading-primary,
 .subheading {
   color: #333;
 }
-.header-primary {
+.heading-primary {
   font-size: 5.2rem;
   font-weight: 700;
   line-height: 1.05;

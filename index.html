@@ -7,6 +7,7 @@
     <title>Omnifood</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./general.css" />
+    <link rel="stylesheet" href="./mediaQueries.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
@@ -26,16 +27,20 @@
               <li><a href="#">Meals</a></li>
               <li><a href="#">Testimonials</a></li>
               <li><a href="#">Pricing</a></li>
-              <li><a class="cta-btn" href="#">Try for free</a></li>
+              <li><a class="btn-full cta-btn btn" href="#">Try for free</a></li>
             </ul>
           </nav>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
         </div>
       </header>
       <!-- Hero -->
       <section class="section-hero">
         <div class="hero">
           <div class="hero-text-box">
-            <h1 class="header-primary">
+            <h1 class="heading-primary">
               A healthy meal delivered to your door, every single day
             </h1>
             <p class="hero-description">
@@ -138,7 +143,7 @@
             Omnifood AI chooses from 5,000+ recipes
           </h2>
         </div>
-        <div class="center-container grid grid-cols-3 mb-md">
+        <div class="meals-container center-container grid grid-cols-3 mb-md">
           <div class="meal">
             <img src="img/meals/meal-1.jpg" alt="Japanese Gyozas" />
             <div class="meal-content">
@@ -191,7 +196,7 @@
               </ul>
             </div>
           </div>
-          <div>
+          <div class="other-diets">
             <h2 class="other-meals-title">Works with any diet</h2>
             <ul class="list">
               <li class="list-item">
